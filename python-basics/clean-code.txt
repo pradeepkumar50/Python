@@ -1,0 +1,115 @@
+Binary operators and clean code
+
+income = (gross_wages
+         + interest
+         + (people - quality) 
+         - dedubtion)
+
+
+For new code, the suggested style is to break the line before the binary operaor
+
+
+player_x = 5
+player_y = 10
+
+def move_diagonal():
+    player_x += 1
+    player_y += 1
+
+if (player_x > 0
+        and player_x < 200
+        and player_y > 0
+        and player_y < 200):
+    move_diagonal()
+
+
+compound statement
+
+Statement that contains a group of ohter statemnts
+A compound statement consists of one or more clauses
+
+clause contains header and suite
+
+header is basically something to setup the clause, something to denote that 
+clause.
+
+header example
+
+if user_input > 0:         // header
+    print("positive")      // suite
+
+header and suite called clause
+
+Suite is the sequence of statements that will run for that clause
+
+compound statements
+condiationls
+while loops
+for loopstry statement
+with statement
+
+
+if statement
+if user_input > 0:
+    print("positive")
+
+while n > 0:
+    n -= 1
+    print(n)
+
+
+for i in range(50)
+    print(i)
+
+name = "pradeep"
+pice = 30
+
+
+if name == "pradeep":
+    print("yes, you are right")
+
+products = ["p", "r", "a", "d"]
+for product in products:
+    print("the store has inventory")
+
+
+Blank lines 
+
+Blank lines used to group related code blocks or logical sections
+
+def is_prime(n):
+    if n <=1:
+        retur False
+
+    for ..........................
+        if..............
+             return False
+
+    return True
+
+
+white space better pracitces
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
