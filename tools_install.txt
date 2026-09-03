@@ -1,0 +1,223 @@
+venv = python virtual environment
+pip = preferred intsaller program
+      pip installs packages
+
+py -m pip install requests -----------------------globally installed
+py -m  pip list
+
+creating a project in python
+
+py -m venv .venv   => .venv creates a folder
+
+source .venv/Scripts/activate    =>this wil states the virtual environment
+
+press enter its shows (.venv)      => to deactivate this
+
+deactivate     => then it's gone
+
+long list of global packages
+
+py -m pip list
+
+py -m pip install requests -----------------------globally installed
+py -m  pip list
+py -m pip show requests
+py -m pip install python-dotenv
+py -m pip freeze > requirements.txt       => you see all the dependencies
+
+create .gitignore
+
+in that put .venv  so git doesn't take that folder
+
+python course - udemy
+-------------------------------
+
+install the Anaconda 
+
+provide the email address for Anaconda => submit
+
+hit on download button (windows)
+
+Install vs code
+
+windows
+
+create a folder python and open that path
+
+go to cmd prompt and enter
+
+code .  => vs code open in that specific path
+
+create a file test.ipynb
+
+open the terminal in vs code
+
+conda create -p venv python==3.10    => it creats the new environment
+
+it creats venv folder
+
+create a file requirements.txt under venv folder  
+
+=> put all the libries or packages or dependencies in requirements.txt
+
+eg: scikit-learn
+
+conda activate venv/   => venv folder activated
+
+pip install -r requirements.txt        => It has scikit learn package
+
+2 ways to write a python code
+
+test.py     =>  code test.py
+intro.ipynb  => cells
+
+For running the Jupiter notebook files. we have to install 2 packages
+
+pip install ipykernel 
+
+click on detecting kernals and select the python enviornments venv(python 3.10.0)
+
+section -2 
+-----------------------------------------
+
+getting started with vs code
+
+terminal alwaays in cmd 
+
+conda create -p venv python==3.12
+
+conda activate venv/
+
+now you can write the python code in app.py file
+
+to run python app.py
+
+also you can create file with jupiter notebook
+
+test.ipynb
+
+hit on detecting keranls and select python venv 3.12
+
+shift + enter to execute the cell
+
+pip install ipykernel
+
+create requirements.txt    # for packages
+
+now it will execute the code
+
+Different ways of creating the virtual environment
+-----------------------------------------------------
+
+There are there different ways
+
+python -m venv myenv
+
+to activate this environment myenv\Scripts\activate
+
+now you can install any kind of libries
+
+pip install numpy
+
+python --version (by default)
+
+for creating other python verison need to update recent version
+
+go to google and open python.org and download and install the recent python
+
+
+in the terminal enter  deactivate
+
+another way (2nd way)
+
+pip install virtualenv
+
+virtualenv -p python3 virtual_env
+
+to activate
+
+virtual_env\Scripts\activate
+
+do deactivate
+
+enter deactivate in terminal
+
+3rd way
+-----------------------------
+
+conda create -p venv1 python==3.10 -y
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
