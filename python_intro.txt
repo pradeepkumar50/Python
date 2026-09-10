@@ -1,0 +1,42 @@
+
+what is python ?
+
+python is a programming langage. 
+language is a software which provides pre defined instructions to develop
+application
+
+languages  are classifed in two types
+low level languages and high level languages
+
+low level language - assembly langage, machine language
+high level langage - c , c++, python
+
+python is a high level programming language for general purpose programming created by 
+Guido van Rossum. released in 1991.
+python is a object oriened language
+
+key words
+--------------
+There are 33 keywords in python
+keywords cannot be variable names
+
+Identifiers
+-------------------
+Identifiers is a user defiend words which is used to identify the programming
+elements or entities
+
+eg: variable name 
+    function name
+    class name
+    module name
+    constant name
+
+    these are programming entities
+
+Identifiers is a collection of alphabets digts and allows only one special character
+_
+
+0 to 9, alphabets, A-Z
+
+it will not start with digits
+it will not start with keywords.
